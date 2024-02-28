@@ -12,6 +12,13 @@ struct MyFirstVisionOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            Model3D("balloons")
+            
+//            // Display a fully immersive space.
+//            ImmersiveSpace(id: "solarSystem") {
+//                SolarSystemView()
+//            }.immersionStyle(selection: $currentStyle, in: .full)
         }
+        
     }
 }
